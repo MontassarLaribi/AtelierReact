@@ -36,6 +36,7 @@ export default class HelloPerson extends Component {
         <p>
           hello {this.state.person.name} {this.state.person.lastName}
         </p>
+        <p>{this.state.number}</p>
         <button onClick={this.afficher}>Afficher l'alerte</button>
       </div>
     );
